@@ -1,0 +1,32 @@
+{
+  "name": "warsawjs-workshop-35",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": ">=12.6.0"
+  },
+  "scripts": {
+    "start": "node --experimental-modules ./src/index.js",
+    "debug": "node --inspect-brk --experimental-modules ./src/index.js",
+    "test": "jest --watch",
+    "lint": "eslint --ext .js src/",
+    "prettier": "prettier --write src/**/*.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-jest": "^24.9.0",
+    "eslint": "^6.2.1",
+    "jest": "^24.9.0",
+    "prettier": "^1.18.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "nedb-promise": "^2.0.1"
+  }
+}
