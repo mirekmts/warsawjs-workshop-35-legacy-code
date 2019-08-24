@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` 1`] = `
+Array [
+  Object {
+    "date": "2019-08-31",
+    "sell": 1400,
+    "target": 2100,
+  },
+  Object {
+    "date": "2019-07-31",
+    "sell": 1200,
+    "target": 2000,
+  },
+  Object {
+    "date": "2019-06-30",
+    "sell": 2400,
+    "target": 2200,
+  },
+]
+`;

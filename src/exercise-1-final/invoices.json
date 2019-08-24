@@ -1,0 +1,19 @@
+[
+  {
+    "customer": "Michał",
+    "rides": [
+      {
+        "vehicleId": "bike",
+        "minutes": 32
+      },
+      {
+        "vehicleId": "scooter",
+        "minutes": 10
+      },
+      {
+        "vehicleId": "motorcycle",
+        "minutes": 22
+      }
+    ]
+  }
+]

@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`print statement in html 1`] = `
+"<h1>Statement for Michał</h1>
+<table>
+<tr><th>vehicle</th><th>minutes</th><th>cost</th></tr>
+<tr><td>Bike</td><td>32</td><td>PLN 5.40</td></tr>
+<tr><td>Scooter</td><td>10</td><td>PLN 15.00</td></tr>
+<tr><td>Motorcycle</td><td>22</td><td>PLN 44.00</td></tr>
+</table>
+<p>Amount owed is <em>PLN 64.40</em></p>
+<p>You earned <em>8</em> credits</p>
+"
+`;
+
+exports[`print statement in text 1`] = `
+"Statement for Michał
+ Bike: PLN 5.40 (32 minutes)
+ Scooter: PLN 15.00 (10 minutes)
+ Motorcycle: PLN 44.00 (22 minutes)
+Amount owed is PLN 64.40
+You earned 8 credits
+"
+`;

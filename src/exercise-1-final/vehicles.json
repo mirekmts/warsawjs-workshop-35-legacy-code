@@ -1,0 +1,5 @@
+{
+  "bike": { "name": "Bike", "type": "eco" },
+  "scooter": { "name": "Scooter", "type": "electric" },
+  "motorcycle": { "name": "Motorcycle", "type": "electric" }
+}
