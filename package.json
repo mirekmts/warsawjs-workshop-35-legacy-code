@@ -25,7 +25,7 @@
     "prettier": "^1.18.2"
   },
   "dependencies": {
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "moment": "^2.24.0",
     "nedb-promise": "^2.0.1"
   }
